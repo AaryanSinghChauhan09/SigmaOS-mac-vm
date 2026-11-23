@@ -1,4 +1,6 @@
-<p align="center">
+# fk-try-omarchy
+
+> Forked from omacom/try-omarchy (MIT). See `SIGMAOS_FORK.md`.
   <img src="macos/OmarchyIcon.svg" width="128" height="128" alt="Try Omarchy logo">
 </p>
 
