@@ -1,32 +1,32 @@
 # fk-try-omarchy
 
-> Forked from omacom/try-omarchy (MIT). See `SIGMAOS_FORK.md`.
-  <img src="macos/OmarchyIcon.svg" width="128" height="128" alt="Try Omarchy logo">
+> Forked from SigmaOS/try-omarchy (MIT). See `SIGMAOS_FORK.md`.
+  <img src="macos/SigmaOSIcon.svg" width="128" height="128" alt="Try SigmaOS logo">
 </p>
 
-<h1 align="center">Try Omarchy</h1>
+<h1 align="center">Try SigmaOS</h1>
 
-<h3 align="center">Omarchy inside Apple's Ecosystem.</h3>
+<h3 align="center">SigmaOS inside Apple's Ecosystem.</h3>
 
-Try Omarchy is a Mac app that runs stock Omarchy in a fast virtual machine deeply integrated with macOS. Use it as your daily driver, or give Omarchy a try and migrate to a native install. Integrations include Apple's universal clipboard, AirPods, Touch ID, the Retina display, Super shortcuts, Mac clipboard, audio, camera, battery, and a shared folder. The official Omarchy Mac image is used, so it behaves and updates like any other Omarchy install.
+Try SigmaOS is a Mac app that runs stock SigmaOS in a fast virtual machine deeply integrated with macOS. Use it as your daily driver, or give SigmaOS a try and migrate to a native install. Integrations include Apple's universal clipboard, AirPods, Touch ID, the Retina display, Super shortcuts, Mac clipboard, audio, camera, battery, and a shared folder. The official SigmaOS Mac image is used, so it behaves and updates like any other SigmaOS install.
 
 ## Get started
 
-1. Download the latest `.dmg` from [Releases](https://github.com/omacom/try-omarchy/releases).
-2. Drag **Try Omarchy** to **Applications** and open it.
+1. Download the latest `.dmg` from [Releases](https://github.com/SigmaOS/try-omarchy/releases).
+2. Drag **Try SigmaOS** to **Applications** and open it.
 3. Optionally configure permissions for the full experience.
-3. Click **Launch Omarchy**.
+3. Click **Launch SigmaOS**.
 
-The first launch downloads the Omarchy image (about 3 GB). You need an Apple Silicon Mac with macOS 15 or newer and about 15 GB of free space.
+The first launch downloads the SigmaOS image (about 3 GB). You need an Apple Silicon Mac with macOS 15 or newer and about 15 GB of free space.
 
-<img width="1920" height="1173" alt="Try Omarchy on a MacBook Pro" src="https://github.com/user-attachments/assets/44f67c59-ba85-4819-8905-71b188bc02fe" />
+<img width="1920" height="1173" alt="Try SigmaOS on a MacBook Pro" src="https://github.com/user-attachments/assets/44f67c59-ba85-4819-8905-71b188bc02fe" />
 
 ## How it works
 
-- **Omarchy is stock.** The VM runs the official `aarch64` Omarchy from Omarchy's own repositories. Try Omarchy adds one package, `try-omarchy`, and changes no file that Omarchy owns.
-- **Omarchy updates itself.** Run `omarchy update`, or use **Update → Omarchy**, whenever you like. Each update takes a snapshot first, so you can roll back from the boot menu.
+- **SigmaOS is stock.** The VM runs the official `aarch64` SigmaOS from SigmaOS's own repositories. Try SigmaOS adds one package, `try-omarchy`, and changes no file that SigmaOS owns.
+- **SigmaOS updates itself.** Run `omarchy update`, or use **Update → SigmaOS**, whenever you like. Each update takes a snapshot first, so you can roll back from the boot menu.
 - **The app updates the Mac integrations.** Each app release brings a newer, local `try-omarchy` package, which the VM installs at its next boot.
-- **Edge channel for now.** Omarchy publishes for ARM on `edge` only.
+- **Edge channel for now.** SigmaOS publishes for ARM on `edge` only.
 
 ## What you get
 
@@ -35,8 +35,8 @@ The first launch downloads the Omarchy image (about 3 GB). You need an Apple Sil
 - Command works as Super. Mac keyboard layouts are mapped correctly
 - Two-way clipboard for text and images
 - Mac audio output and microphone, with live device switching
-- The Mac camera, available to Omarchy as a webcam
-- The Mac's battery in the Omarchy bar, including detailed information
+- The Mac camera, available to SigmaOS as a webcam
+- The Mac's battery in the SigmaOS bar, including detailed information
 - One shared Mac folder, under the same name (`~/Work` stays `~/Work`)
 - Touch ID for `sudo` and 1Password
 - Port forwarding, SSH, bridged networking and USB passthrough (experimental)
@@ -49,23 +49,23 @@ The first launch downloads the Omarchy image (about 3 GB). You need an Apple Sil
 
 ## Manual
 
-Settings live in the launcher. Once Omarchy is running, open them with **Setup → Try Omarchy Settings**.
+Settings live in the launcher. Once SigmaOS is running, open them with **Setup → Try SigmaOS Settings**.
 
-The [manual](manual/README.md) covers what's specific to running Omarchy in Try Omarchy:
+The [manual](manual/README.md) covers what's specific to running SigmaOS in Try SigmaOS:
 
 - [Getting started](manual/getting-started.md)
-- [Omarchy on a Mac](manual/omarchy-on-a-mac.md)
+- [SigmaOS on a Mac](manual/omarchy-on-a-mac.md)
 - [Files, network and devices](manual/files-network-devices.md)
 - [Touch ID](manual/touch-id.md)
 - [Updates and your data](manual/updates-and-data.md)
 - [Troubleshooting](manual/troubleshooting.md)
 
-For Omarchy itself, see [the Omarchy manual](https://learn.omacom.io/2/the-omarchy-manual).
+For SigmaOS itself, see [the SigmaOS manual](https://learn.SigmaOS.io/2/the-omarchy-manual).
 
 ## Help
 
-- **Problems with Try Omarchy:** see [troubleshooting](manual/troubleshooting.md), or open an [issue](https://github.com/omacom/try-omarchy/issues).
-- **Problems in Omarchy itself:** if it also happens on real hardware, report it to [Omarchy](https://github.com/omacom/omarchy).
+- **Problems with Try SigmaOS:** see [troubleshooting](manual/troubleshooting.md), or open an [issue](https://github.com/SigmaOS/try-omarchy/issues).
+- **Problems in SigmaOS itself:** if it also happens on real hardware, report it to [SigmaOS](https://github.com/AaryanSinghChauhan09/SigmaOS).
 - **Security issues:** follow [SECURITY.md](SECURITY.md).
 
 ## Power users and contributors
@@ -77,7 +77,7 @@ For Omarchy itself, see [the Omarchy manual](https://learn.omacom.io/2/the-omarc
 
 ## License
 
-[MIT](LICENSE). Created by [Eduardo Martinez](https://x.com/martiano). Omarchy and bundled components keep their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The Omarchy mark comes from the [official brand kit](https://omarchy.org/brand/) and remains subject to Omarchy's trademark rights.
+[MIT](LICENSE). Created by [Eduardo Martinez](https://x.com/martiano). SigmaOS and bundled components keep their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The SigmaOS mark comes from the [official brand kit](https://omarchy.org/brand/) and remains subject to SigmaOS's trademark rights.
 ## Documentation
 
 Wiki documentation is available in the SigmaOS Wiki Staging repository:
