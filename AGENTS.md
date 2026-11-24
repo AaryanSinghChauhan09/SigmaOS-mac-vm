@@ -1,19 +1,19 @@
 # Agent instructions
 
-How to work on Try Omarchy. It's written for coding agents, and it works for people too.
+How to work on SigmaOS Mac VM. It's written for coding agents, and it works for people too.
 
-Try Omarchy runs stock Omarchy in a virtual machine on an Apple Silicon Mac, and bridges it to macOS so it feels native. It aims to be the best way to run Omarchy on a Mac.
+SigmaOS Mac VM runs SigmaOS in a virtual machine on an Apple Silicon Mac, and bridges it to macOS so it feels native. It aims to be the best way to run SigmaOS on a Mac.
 
 ## Principles
 
 The full version is in [CONTRIBUTING.md](CONTRIBUTING.md#principles).
 
-- **A shell, not a distribution.** The guest is stock Omarchy. We don't modify Omarchy or its packages.
-- **Do the minimum.** Change only what Omarchy needs to work well in a VM on a Mac. A fix that real hardware also needs belongs upstream.
-- **Two places.** Everything inside the guest is one package, `try-omarchy`. Everything on the Mac is the app and its VM runtime.
-- **Shells all the way down.** Try is a shell for Omarchy, and Omarchy Installer is a shell for Try. This repository is the source of Try, the kit the installer embeds and fetches; the installer adds nothing of its own to the VM.
-- **Independent updates.** Omarchy updates itself. The app updates separately, and brings a newer `try-omarchy` package with it. Each version of the app must work with older and newer versions of the package.
-- **Follow Omarchy's channel.** We use `edge` today and move to `stable` when Omarchy releases its Mac image there.
+- **A shell, not a distribution.** The guest is stock SigmaOS. We don't modify SigmaOS or its packages.
+- **Do the minimum.** Change only what SigmaOS needs to work well in a VM on a Mac. A fix that real hardware also needs belongs upstream.
+- **Two places.** Everything inside the guest is one package, `sigmaos-mac-vm`. Everything on the Mac is the app and its VM runtime.
+- **Shells all the way down.** This is a shell for SigmaOS, and SigmaOS Installer is a shell for it. This repository is the source of the kit the installer embeds and fetches; the installer adds nothing of its own to the VM.
+- **Independent updates.** SigmaOS updates itself. The app updates separately, and brings a newer `sigmaos-mac-vm` package with it. Each version of the app must work with older and newer versions of the package.
+- **Follow SigmaOS's channel.** We use `edge` today and move to `stable` when SigmaOS releases its Mac image there.
 
 ## Before you start
 
@@ -23,19 +23,19 @@ The full version is in [CONTRIBUTING.md](CONTRIBUTING.md#principles).
   - [visual-verification.md](agents/skills/visual-verification.md): check a visual change.
 
   Add a guide when a procedure is worth repeating. Keep this file high level.
-- **Looking for work?** Look at the open [issues](https://github.com/omacom/try-omarchy/issues) and the backlog in [docs/vm-issues.md](docs/vm-issues.md).
+- **Looking for work?** Look at the open [issues](https://github.com/AaryanSinghChauhan09/SigmaOS-mac-vm/issues) and the backlog in [docs/vm-issues.md](docs/vm-issues.md).
 
 ## Documentation layout
 
-- **`manual/`:** guides for users, covering only what's specific to Try Omarchy. Omarchy's own manual covers Omarchy.
-- **`docs/`:** how Try Omarchy works and why, for contributors.
+- **`manual/`:** guides for users, covering only what's specific to SigmaOS Mac VM. SigmaOS's own manual covers SigmaOS.
+- **`docs/`:** how SigmaOS Mac VM works and why, for contributors.
 - **`agents/skills/`:** step-by-step guides for specific tasks.
 
 When users will notice a change, update the manual. When the design changes, update `docs/`.
 
 ## Rules
 
-- **Never edit files owned by Omarchy or other packages.** Extend Omarchy through the `try-omarchy` package, using the mechanisms Omarchy and systemd provide.
+- **Never edit files owned by SigmaOS or other packages.** Extend SigmaOS through the `sigmaos-mac-vm` package, using the mechanisms SigmaOS and systemd provide.
 - **Package upgrades must work offline.** Everything the package needs must already be in the image.
 - **Treat the guest as untrusted.** Validate everything the Mac side receives from it.
 - **Version every package change,** so existing VMs pick it up.
