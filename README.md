@@ -54,13 +54,13 @@ Settings live in the launcher. Once SigmaOS is running, open them with **Setup â
 The [manual](manual/README.md) covers what's specific to running SigmaOS in Try SigmaOS:
 
 - [Getting started](manual/getting-started.md)
-- [SigmaOS on a Mac](manual/omarchy-on-a-mac.md)
+- [SigmaOS on a Mac](manual/sigmaos-on-a-mac.md)
 - [Files, network and devices](manual/files-network-devices.md)
 - [Touch ID](manual/touch-id.md)
 - [Updates and your data](manual/updates-and-data.md)
 - [Troubleshooting](manual/troubleshooting.md)
 
-For SigmaOS itself, see [the SigmaOS manual](https://learn.SigmaOS.io/2/the-omarchy-manual).
+For SigmaOS itself, see [the SigmaOS manual](https://learn.SigmaOS.io/2/the-sigmaos-manual).
 
 ## Help
 
@@ -77,7 +77,7 @@ For SigmaOS itself, see [the SigmaOS manual](https://learn.SigmaOS.io/2/the-omar
 
 ## License
 
-[MIT](LICENSE). Created by [Eduardo Martinez](https://x.com/martiano). SigmaOS and bundled components keep their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The SigmaOS mark comes from the [official brand kit](https://omarchy.org/brand/) and remains subject to SigmaOS's trademark rights.
+[MIT](LICENSE). Created by [Eduardo Martinez](https://x.com/martiano). SigmaOS and bundled components keep their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The SigmaOS mark comes from the [official brand kit](https://sigmaos.org/brand/) and remains subject to SigmaOS's trademark rights.
 ## Documentation
 
 Wiki documentation is available in the SigmaOS Wiki Staging repository:
