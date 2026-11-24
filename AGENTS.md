@@ -66,7 +66,7 @@ When users will notice a change, update the manual. When the design changes, upd
 | --- | --- | --- |
 | `make test` | Any Mac, and CI | Unit and contract tests for the app, scripts and package, and the run mode as a real process (`run-mode.test.sh`) |
 | Build | CI (macOS) | The runtime, and the kit built from it and checked with `make test-kit` |
-| Guest checks | CI (Linux) | The package installed on today's Omarchy, and the desktop booted on a virtual display |
+| Guest checks | CI (Linux) | The package installed on today's SigmaOS, and the desktop booted on a virtual display |
 | `make e2e` | An Apple Silicon Mac | The real VM: hardware virtualization, the GPU, the Mac bridges, a second boot |
 
 - **Every mechanism ships with its check in CI.** A PR that adds a build step, a protocol, a file format or a script adds a CI check for it.
