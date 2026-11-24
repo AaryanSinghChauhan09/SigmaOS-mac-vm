@@ -78,3 +78,8 @@ For Omarchy itself, see [the Omarchy manual](https://learn.omacom.io/2/the-omarc
 ## License
 
 [MIT](LICENSE). Created by [Eduardo Martinez](https://x.com/martiano). Omarchy and bundled components keep their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The Omarchy mark comes from the [official brand kit](https://omarchy.org/brand/) and remains subject to Omarchy's trademark rights.
+## Documentation
+
+Wiki documentation is available in the SigmaOS Wiki Staging repository:
+
+- [SigmaOS Wiki Staging](https://github.com/AaryanSinghChauhan09/sigmaos-wiki-staging#SigmaOS-mac-vm) - Full Wiki documentation for all SigmaOS components
