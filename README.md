@@ -1,6 +1,6 @@
-# fk-try-omarchy
+# SigmaOS-mac-vm
 
-> Forked from SigmaOS/try-omarchy (MIT). See `SIGMAOS_FORK.md`.
+> Forked from SigmaOS/sigmaos-mac-vm (MIT). See `SIGMAOS_FORK.md`.
   <img src="macos/SigmaOSIcon.svg" width="128" height="128" alt="Try SigmaOS logo">
 </p>
 
@@ -12,7 +12,7 @@ Try SigmaOS is a Mac app that runs stock SigmaOS in a fast virtual machine deepl
 
 ## Get started
 
-1. Download the latest `.dmg` from [Releases](https://github.com/SigmaOS/try-omarchy/releases).
+1. Download the latest `.dmg` from [Releases](https://github.com/AaryanSinghChauhan09/SigmaOS-mac-vm/releases).
 2. Drag **Try SigmaOS** to **Applications** and open it.
 3. Optionally configure permissions for the full experience.
 3. Click **Launch SigmaOS**.
@@ -23,9 +23,9 @@ The first launch downloads the SigmaOS image (about 3 GB). You need an Apple Sil
 
 ## How it works
 
-- **SigmaOS is stock.** The VM runs the official `aarch64` SigmaOS from SigmaOS's own repositories. Try SigmaOS adds one package, `try-omarchy`, and changes no file that SigmaOS owns.
-- **SigmaOS updates itself.** Run `omarchy update`, or use **Update → SigmaOS**, whenever you like. Each update takes a snapshot first, so you can roll back from the boot menu.
-- **The app updates the Mac integrations.** Each app release brings a newer, local `try-omarchy` package, which the VM installs at its next boot.
+- **SigmaOS is stock.** The VM runs the official `aarch64` SigmaOS from SigmaOS's own repositories. Try SigmaOS adds one package, `sigmaos-mac-vm`, and changes no file that SigmaOS owns.
+- **SigmaOS updates itself.** Run `sigmaos update`, or use **Update → SigmaOS**, whenever you like. Each update takes a snapshot first, so you can roll back from the boot menu.
+- **The app updates the Mac integrations.** Each app release brings a newer, local `sigmaos-mac-vm` package, which the VM installs at its next boot.
 - **Edge channel for now.** SigmaOS publishes for ARM on `edge` only.
 
 ## What you get
@@ -64,7 +64,7 @@ For SigmaOS itself, see [the SigmaOS manual](https://learn.SigmaOS.io/2/the-sigm
 
 ## Help
 
-- **Problems with Try SigmaOS:** see [troubleshooting](manual/troubleshooting.md), or open an [issue](https://github.com/SigmaOS/try-omarchy/issues).
+- **Problems with Try SigmaOS:** see [troubleshooting](manual/troubleshooting.md), or open an [issue](https://github.com/AaryanSinghChauhan09/SigmaOS-mac-vm/issues).
 - **Problems in SigmaOS itself:** if it also happens on real hardware, report it to [SigmaOS](https://github.com/AaryanSinghChauhan09/SigmaOS).
 - **Security issues:** follow [SECURITY.md](SECURITY.md).
 
